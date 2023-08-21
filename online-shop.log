@@ -1,0 +1,31 @@
+2023-08-21 18:14:34.610  INFO 47356 --- [main] com.onlineshop.Application               : Starting Application using Java 17.0.7 on MacBook-Air-Eugen.local with PID 47356 (/Users/eugenborodin/IdeaProjects/OnlineShop/target/classes started by eugenborodin in /Users/eugenborodin/IdeaProjects/OnlineShop)
+2023-08-21 18:14:34.612  INFO 47356 --- [main] com.onlineshop.Application               : No active profile set, falling back to 1 default profile: "default"
+2023-08-21 18:14:34.977  INFO 47356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-21 18:14:35.008  INFO 47356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 10 JPA repository interfaces.
+2023-08-21 18:14:35.264  INFO 47356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-21 18:14:35.268  INFO 47356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-21 18:14:35.268  INFO 47356 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-21 18:14:35.311  INFO 47356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-21 18:14:35.311  INFO 47356 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 671 ms
+2023-08-21 18:14:35.455  INFO 47356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-21 18:14:35.549  INFO 47356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-21 18:14:36.938  INFO 47356 --- [main] liquibase.database                       : Set default schema name to public
+2023-08-21 18:14:36.981  INFO 47356 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-08-21 18:14:37.167  INFO 47356 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2023-08-21 18:14:37.236  INFO 47356 --- [main] liquibase.changelog                      : Table users created
+2023-08-21 18:14:37.240  INFO 47356 --- [main] liquibase.changelog                      : Custom SQL executed
+2023-08-21 18:14:37.241  INFO 47356 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog.xml::#3::sergey ran successfully in 36ms
+2023-08-21 18:14:37.257  INFO 47356 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-08-21 18:14:37.303  INFO 47356 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-21 18:14:37.325  INFO 47356 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-21 18:14:37.386  INFO 47356 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-21 18:14:37.438  INFO 47356 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-08-21 18:14:37.681  INFO 47356 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-21 18:14:37.685  INFO 47356 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-21 18:14:37.988  INFO 47356 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@80081d7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57d0c779, org.springframework.security.web.context.SecurityContextPersistenceFilter@1ff52a71, org.springframework.security.web.header.HeaderWriterFilter@3b235623, org.springframework.security.web.authentication.logout.LogoutFilter@2e76ade9, com.onlineshop.config.JwtAuthorizationFilter@1ddc6db2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f776b4a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2fb555e8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3070f59f, org.springframework.security.web.session.SessionManagementFilter@65192f16, org.springframework.security.web.access.ExceptionTranslationFilter@736eb2a2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@a1c4f69]
+2023-08-21 18:14:38.037  WARN 47356 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-21 18:14:38.193  INFO 47356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-21 18:14:38.200  INFO 47356 --- [main] com.onlineshop.Application               : Started Application in 3.763 seconds (JVM running for 4.222)
+2023-08-21 18:15:21.705  INFO 47356 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-21 18:15:21.708  INFO 47356 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-21 18:15:21.709  INFO 47356 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
